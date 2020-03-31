@@ -1,0 +1,37 @@
+products = {'Chocolate':10,
+                'Pizza':100,
+                'Burger':50,
+                'Pencil':10,
+                'Eraser':5,
+                'Notebook':30,
+                'Soap':40
+            }
+print("You can type bill in between to see the bill so far. Type done after you have completed adding items to your cart");
+adding = admin
+bill = 0
+cart = {}
+cost = []
+adding inp= input("enter password")
+if adding inp==adding
+
+while adding != False:
+    product = input("Enter the product name: ");
+    if product in products:
+        n = int(input("Enter the quantity: "));
+        cost.append(products[product]*n);
+    elif product == 'bill':
+        if len(cost) == 0:
+            print("You haven't added anything.");
+        else:
+            print("Your expenditure till now is ",sum(cost));
+    elif product == 'done':
+        if len(cost) == 0:
+            print("You have not bought anything");
+            adding = False;
+        else:
+            print("Your total expenditure is ")
+            for k in product:
+                print(product[k]," ",n," ",n*cost);
+                adding = False;
+    else:
+        print("No product of this name found");
